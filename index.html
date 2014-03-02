@@ -1,128 +1,112 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>1Grids by AliMD</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <title>1Grids by AliMD</title>
+  <link rel="stylesheet" href="stylesheets/styles.css" />
+  <link rel="stylesheet" href="stylesheets/pygment_trac.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="javascripts/respond.js"></script>
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <!--[if lt IE 8]>
+  <link rel="stylesheet" href="stylesheets/ie.css">
+  <![endif]-->
+</head>
+<body>
+  <div id="header">
+    <nav>
+      <li class="fork"><a href="https://github.com/AliMD/1Grids">View On GitHub</a></li>
+      <li class="downloads"><a href="https://github.com/AliMD/1Grids/zipball/master">ZIP</a></li>
+      <li class="downloads"><a href="https://github.com/AliMD/1Grids/tarball/master">TAR</a></li>
+      <li class="title">DOWNLOADS</li>
+    </nav>
+  </div><!-- end header -->
 
-  </head>
-  <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/AliMD/1Grids">View On GitHub</a></li>
-          <li class="downloads"><a href="https://github.com/AliMD/1Grids/zipball/master">ZIP</a></li>
-          <li class="downloads"><a href="https://github.com/AliMD/1Grids/tarball/master">TAR</a></li>
-          <li class="title">DOWNLOADS</li>
-        </nav>
-      </div><!-- end header -->
+  <div class="wrapper">
+    <section>
+      <div id="title">
+        <h1>1Grids</h1>
+        <p>A 1Devs Professional CSS Grid System.</p>
+        <hr />
+        <span class="credits left">by <a href="https://github.com/AliMD" title="AliMD">Ali Mihandoost</a></span>
+        <span class="credits right">i@ali.md</span>
+      </div>
 
-    <div class="wrapper">
+      <h2>1Grids</h2>
 
-      <section>
-        <div id="title">
-          <h1>1Grids</h1>
-          <p>A 1Devs Professional CSS Grid System.</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/AliMD">AliMD</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
-        </div>
+      <p>A 1Devs Professional CSS Grid System.</p>
 
-        <h2>
-<a name="1grids" class="anchor" href="#1grids"><span class="octicon octicon-link"></span></a>1Grids</h2>
+      <h3>Feature</h3>
 
-<p>A 1Devs Professional CSS Grid System.   </p>
+      <p>Under Develop</p>
 
-<h3>
-<a name="feature" class="anchor" href="#feature"><span class="octicon octicon-link"></span></a>Feature</h3>
+      <h3>How to use</h3>
 
-<p>Under Develop</p>
+      <h4>Use in stylus</h4>
 
-<h3>
-<a name="how-to-use" class="anchor" href="#how-to-use"><span class="octicon octicon-link"></span></a>How to use</h3>
+      <p>Download and import <code>1Grids</code> folder in your stylus project</p>
 
-<h4>
-<a name="use-in-stylus" class="anchor" href="#use-in-stylus"><span class="octicon octicon-link"></span></a>Use in stylus</h4>
+      <pre lang="stylus"><code>@import '1Grids/'</code></pre>
 
-<p>Download and import <code>1Grids</code> folder in your stylus project</p>
+      <p>Config count of grids in <code>1grids.styl</code></p>
 
-<pre lang="stylus"><code>@import '1Grids/'
-</code></pre>
+      <pre lang="stylus"><code>grid_num = 12</code></pre>
 
-<p>Grids config <code>1Grids/config.styl</code></p>
+      <h4>Use CSS version as a separate file</h4>
+        
+      <p>Use 1grids before other styles (after reset).</p>
 
-<pre lang="stylus"><code>grid_num  = 12</code></pre>
+      <div class="highlight"><pre><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"1grids.css"</span> <span class="na">type=</span><span class="s">"text/css"</span> <span class="nt">/&gt;</span></pre></div>
 
-<h4>
-<a name="use-css-version-as-a-separate-file" class="anchor" href="#use-css-version-as-a-separate-file"><span class="octicon octicon-link"></span></a>Use CSS version as a separate file</h4>
+      <p>You can use our public cdn.  </p>
 
-<p>Use 1grids before other styles.  </p>
+      <div class="highlight"><pre><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"http://alimd.github.io/libs/1grids/2.0/1grids.css"</span> <span class="na">type=</span><span class="s">"text/css"</span> <span class="nt">/&gt;</span></pre></div>
 
-<div class="highlight"><pre><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"1grids.css"</span> <span class="na">type=</span><span class="s">"text/css"</span> <span class="nt">/&gt;</span>
-</pre></div>
+      <h3>Browser support</h3>
 
-<p>You can use our public cdn.  </p>
+      <ul>
+        <li>Google Chrome 4+</li>
+        <li>Mozilla Firefox 3+</li>
+        <li>Apple Safari 4+</li>
+        <li>Opera 11+</li>
+        <li>Internet Explorer 7+</li>
+      </ul>
 
-<div class="highlight"><pre><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"http://alimd.github.io/libs/1grids/2.0/1grids.css"</span> <span class="na">type=</span><span class="s">"text/css"</span> <span class="nt">/&gt;</span>
-</pre></div>
+      <h3>TECHNOLOGY</h3>
 
-<h3>
-<a name="browser-support" class="anchor" href="#browser-support"><span class="octicon octicon-link"></span></a>Browser support</h3>
+      <ul>
+        <li><a href="http://ali.md/css4">CSS</a></li>
+        <li><a href="http://ali.md/stylus">Stylus</a></li>
+        <li><a href="http://ali.md/libs">Alimd cdn</a></li>
+      </ul>
+      <h3>Change Log</h3>
 
-<ul>
-<li>Google Chrome</li>
-<li>Mozilla Firefox 2+</li>
-<li>Apple Safari 3+</li>
-<li>Opera 11+<br>
-</li>
-<li>Internet Explorer 6+</li>
-</ul><h3>
-<a name="technology" class="anchor" href="#technology"><span class="octicon octicon-link"></span></a>TECHNOLOGY</h3>
+      <p>Check <a href="./CHANGELOG.md" title="1Grids Change log">CHANGELOG.md</a>  </p>
 
-<ul>
-<li><a href="http://ali.md/css4">CSS</a></li>
-<li><a href="http://ali.md/stylus">Stylus</a></li>
-<li><a href="http://ali.md/libs">Alimd cdn</a></li>
-</ul><h3>
-<a name="change-log" class="anchor" href="#change-log"><span class="octicon octicon-link"></span></a>Change Log</h3>
+      <h3>Contributing</h3>
 
-<p>Check <a href="./CHANGELOG.md" title="1Grids Change log">CHANGELOG.md</a>  </p>
+      <p><strong>♥</strong> this project and want to get involved ?<br>
+      Thanks! There are plenty of ways you can help!<br>
+      Check <a href="./CONTRIBUTING.md" title="How to contribute">CONTRIBUTING.md</a></p>
 
-<h3>
-<a name="contributing" class="anchor" href="#contributing"><span class="octicon octicon-link"></span></a>Contributing</h3>
+      <h3>Help and support</h3>
 
-<p><strong>♥</strong> this project and want to get involved ?<br>
-Thanks! There are plenty of ways you can help!<br>
-Check <a href="./CONTRIBUTING.md" title="How to contribute">CONTRIBUTING.md</a></p>
+      <p>Please ask any questions about web technologies <a href="http://github.com/AliMD/1Tuts/issues" title="http://ali.md/ask">here</a></p>
 
-<h3>
-<a name="help-and-support" class="anchor" href="#help-and-support"><span class="octicon octicon-link"></span></a>Help and support</h3>
+      <h3>A 1Devs Project</h3>
 
-<p>Please ask any questions about web technologies <a href="http://github.com/AliMD/1Tuts/issues" title="http://ali.md/ask">here</a></p>
+      <p>Supported by <b>The<i>One</i>Developers.</b></p>
 
-<h3>
-<a name="a-1devs-project" class="anchor" href="#a-1devs-project"><span class="octicon octicon-link"></span></a>A 1Devs Project</h3>
+      <h3>License</h3>
 
-<p>Supported by <b>The<i>One</i>Developers.</b></p>
+      <p><a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by/3.0/88x31.png"></a><br>1Grids by <a href="http://ali.md" rel="cc:attributionURL">Ali Mihandoost</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons Attribution 3.0 Unported License</a>.</p>
+    </section>
 
-<h3>
-<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h3>
-
-<p><a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by/3.0/88x31.png"></a><br>1Grids by <a href="http://ali.md" rel="cc:attributionURL">Ali Mihandoost</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons Attribution 3.0 Unported License</a>.</p>
-      </section>
-
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
-  </body>
+  </div>
+  <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+</body>
 </html>
